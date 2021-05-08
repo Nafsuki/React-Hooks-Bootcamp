@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import TimerContainer from './components/TimerContainer';
+import ApiFetch from './components/ApiFetch';
+// import TimerContainer from './components/TimerContainer';
 // import Basic1 from './components/Basic1';
 // import Basic2 from './components/Basic2';
 // import BasicUseEffect from './components/BasicUseEffect';
@@ -23,7 +24,8 @@ function App() {
         </a>
         {/* <Basic2 /> */}
         {/* <BasicUseEffect /> */}
-        <TimerContainer />
+        {/* <TimerContainer /> */}
+        <ApiFetch />
       </header>
     </div>
   );
